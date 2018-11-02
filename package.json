@@ -1,0 +1,18 @@
+{
+  "name": "crypto-market-breadth",
+  "private": true,
+  "version": "1.0.0",
+  "main": "generate.mjs",
+  "scripts": {
+    "build": "mkdir -p dist && ./generate.mjs > dist/crypto-market-breadth.pine",
+    "clip": "npm run build && cat dist/crypto-market-breadth.pine | xclip -selection c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m59peacemaker/pine-crypto-market-breadth"
+  },
+  "bugs": "https://github.com/m59peacemaker/pine-crypto-market-breadth/issues",
+  "author": "Johnny Hauser <johnnyhauser@gmail.com>",
+  "license": "CC0-1.0",
+  "dependencies": {}
+}
