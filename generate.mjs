@@ -22,7 +22,7 @@ const tickersInfo = tickers
 
 const script = `
 //@version=3
-study("Crypto Market Breadth [m59]", precision=0)
+study("Crypto Market Breadth [m59]", shorttitle="Crypto Market Breadth", precision=0)
 
 ${pine.comment(
 `
