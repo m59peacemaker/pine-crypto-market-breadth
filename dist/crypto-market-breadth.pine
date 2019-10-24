@@ -41,43 +41,43 @@ study("Crypto Market Breadth [m59]", shorttitle="Crypto Market Breadth", precisi
 // COINBASE:BTCUSD
 // COINBASE:ETHUSD
 // BINANCE:XRPUSD
+// COINBASE:LTCUSD
 // BINANCE:EOSUSD
-// BINANCE:XLMUSD
-// BINANCE:LTCUSD
+// BINANCE:BNBUSD
+// BITFINEX:BSVUSD
+// BITFINEX:XLMUSD
+// BITFINEX:LEOUSD
 // BINANCE:ADAUSD
 // BINANCE:XMRUSD
 // BINANCE:TRXUSD
-// BINANCE:DASHUSD
 // BINANCE:IOTAUSD
-// BINANCE:BNBUSD
-// POLONIEX:XEMUSD
+// BINANCE:DASHUSD
+// BINANCE:LINKUSD
 // BINANCE:NEOUSD
 // BINANCE:ETCUSD
-// BITFINEX:XTZUSD
-// BITFINEX:ZECUSD
-// BINANCE:BTGUSD
-// BINANCE:VETUSD
 // BITFINEX:MKRUSD
 // BINANCE:ONTUSD
-// BINANCE:OMGUSD
-// POLONIEX:DOGEUSD
-// BINANCE:ZRXUSD
-// POLONIEX:DCRUSD
-// BINANCE:QTUMUSD
+// BINANCE:ZECUSD
 // BINANCE:BATUSD
+// BINANCE:VETUSD
+// BINANCE:QTUMUSD
+// BITFINEX:ZBTUSD
+// BINANCE:HOTUSD
+// BINANCE:ZRXUSD
+// BINANCE:OMGUSD
 // BINANCE:LSKUSD
-// BINANCE:ZILUSD
-// POLONIEX:BCNUSD
-// BINANCE:AEUSD
-// BINANCE:BCDUSD
-// BINANCE:ICXUSD
-// BINANCE:BTSUSD
-// POLONIEX:DGBUSD
 // BINANCE:NANOUSD
-// BINANCE:LINKUSD
-// POLONIEX:SCUSD
-// POLONIEX:STEEMUSD
-// BINANCE:NPXSUSD
+// BITFINEX:DGBUSD
+// BINANCE:ICXUSD
+// BINANCE:WAVESUSD
+// BITFINEX:DAIUSD
+// POLONIEX:BCNUSD
+// BINANCE:HCUSD
+// BINANCE:THETAUSD
+// BINANCE:IOSTUSD
+// BINANCE:ENJUSD
+// BINANCE:ZILUSD
+// BINANCE:KEYUSD
 //
 
 
@@ -98,43 +98,43 @@ add (a, b) => a + b
 BTCUSD_close = tickerValue(close, "COINBASE:BTCUSD")
 ETHUSD_close = tickerValue(close, "COINBASE:ETHUSD")
 XRPUSD_close = tickerValue(close, "BINANCE:XRPUSD")
+LTCUSD_close = tickerValue(close, "COINBASE:LTCUSD")
 EOSUSD_close = tickerValue(close, "BINANCE:EOSUSD")
-XLMUSD_close = tickerValue(close, "BINANCE:XLMUSD")
-LTCUSD_close = tickerValue(close, "BINANCE:LTCUSD")
+BNBUSD_close = tickerValue(close, "BINANCE:BNBUSD")
+BSVUSD_close = tickerValue(close, "BITFINEX:BSVUSD")
+XLMUSD_close = tickerValue(close, "BITFINEX:XLMUSD")
+LEOUSD_close = tickerValue(close, "BITFINEX:LEOUSD")
 ADAUSD_close = tickerValue(close, "BINANCE:ADAUSD")
 XMRUSD_close = tickerValue(close, "BINANCE:XMRUSD")
 TRXUSD_close = tickerValue(close, "BINANCE:TRXUSD")
-DASHUSD_close = tickerValue(close, "BINANCE:DASHUSD")
 IOTAUSD_close = tickerValue(close, "BINANCE:IOTAUSD")
-BNBUSD_close = tickerValue(close, "BINANCE:BNBUSD")
-XEMUSD_close = tickerValue(close, "POLONIEX:XEMUSD")
+DASHUSD_close = tickerValue(close, "BINANCE:DASHUSD")
+LINKUSD_close = tickerValue(close, "BINANCE:LINKUSD")
 NEOUSD_close = tickerValue(close, "BINANCE:NEOUSD")
 ETCUSD_close = tickerValue(close, "BINANCE:ETCUSD")
-XTZUSD_close = tickerValue(close, "BITFINEX:XTZUSD")
-ZECUSD_close = tickerValue(close, "BITFINEX:ZECUSD")
-BTGUSD_close = tickerValue(close, "BINANCE:BTGUSD")
-VETUSD_close = tickerValue(close, "BINANCE:VETUSD")
 MKRUSD_close = tickerValue(close, "BITFINEX:MKRUSD")
 ONTUSD_close = tickerValue(close, "BINANCE:ONTUSD")
-OMGUSD_close = tickerValue(close, "BINANCE:OMGUSD")
-DOGEUSD_close = tickerValue(close, "POLONIEX:DOGEUSD")
-ZRXUSD_close = tickerValue(close, "BINANCE:ZRXUSD")
-DCRUSD_close = tickerValue(close, "POLONIEX:DCRUSD")
-QTUMUSD_close = tickerValue(close, "BINANCE:QTUMUSD")
+ZECUSD_close = tickerValue(close, "BINANCE:ZECUSD")
 BATUSD_close = tickerValue(close, "BINANCE:BATUSD")
+VETUSD_close = tickerValue(close, "BINANCE:VETUSD")
+QTUMUSD_close = tickerValue(close, "BINANCE:QTUMUSD")
+ZBTUSD_close = tickerValue(close, "BITFINEX:ZBTUSD")
+HOTUSD_close = tickerValue(close, "BINANCE:HOTUSD")
+ZRXUSD_close = tickerValue(close, "BINANCE:ZRXUSD")
+OMGUSD_close = tickerValue(close, "BINANCE:OMGUSD")
 LSKUSD_close = tickerValue(close, "BINANCE:LSKUSD")
-ZILUSD_close = tickerValue(close, "BINANCE:ZILUSD")
-BCNUSD_close = tickerValue(close, "POLONIEX:BCNUSD")
-AEUSD_close = tickerValue(close, "BINANCE:AEUSD")
-BCDUSD_close = tickerValue(close, "BINANCE:BCDUSD")
-ICXUSD_close = tickerValue(close, "BINANCE:ICXUSD")
-BTSUSD_close = tickerValue(close, "BINANCE:BTSUSD")
-DGBUSD_close = tickerValue(close, "POLONIEX:DGBUSD")
 NANOUSD_close = tickerValue(close, "BINANCE:NANOUSD")
-LINKUSD_close = tickerValue(close, "BINANCE:LINKUSD")
-SCUSD_close = tickerValue(close, "POLONIEX:SCUSD")
-STEEMUSD_close = tickerValue(close, "POLONIEX:STEEMUSD")
-NPXSUSD_close = tickerValue(close, "BINANCE:NPXSUSD")
+DGBUSD_close = tickerValue(close, "BITFINEX:DGBUSD")
+ICXUSD_close = tickerValue(close, "BINANCE:ICXUSD")
+WAVESUSD_close = tickerValue(close, "BINANCE:WAVESUSD")
+DAIUSD_close = tickerValue(close, "BITFINEX:DAIUSD")
+BCNUSD_close = tickerValue(close, "POLONIEX:BCNUSD")
+HCUSD_close = tickerValue(close, "BINANCE:HCUSD")
+THETAUSD_close = tickerValue(close, "BINANCE:THETAUSD")
+IOSTUSD_close = tickerValue(close, "BINANCE:IOSTUSD")
+ENJUSD_close = tickerValue(close, "BINANCE:ENJUSD")
+ZILUSD_close = tickerValue(close, "BINANCE:ZILUSD")
+KEYUSD_close = tickerValue(close, "BINANCE:KEYUSD")
 
 
 movingAverageLength1 = input(20, title="Moving Average Length 1")
@@ -148,121 +148,121 @@ ETHUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 2
 XRPUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 3
 	 ? na
 	 : sma(XRPUSD_close, movingAverageLength1)
-EOSUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 4
-	 ? na
-	 : sma(EOSUSD_close, movingAverageLength1)
-XLMUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 5
-	 ? na
-	 : sma(XLMUSD_close, movingAverageLength1)
-LTCUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 6
+LTCUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 4
 	 ? na
 	 : sma(LTCUSD_close, movingAverageLength1)
-ADAUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 7
+EOSUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 5
 	 ? na
-	 : sma(ADAUSD_close, movingAverageLength1)
-XMRUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 8
-	 ? na
-	 : sma(XMRUSD_close, movingAverageLength1)
-TRXUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 9
-	 ? na
-	 : sma(TRXUSD_close, movingAverageLength1)
-DASHUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 10
-	 ? na
-	 : sma(DASHUSD_close, movingAverageLength1)
-IOTAUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 11
-	 ? na
-	 : sma(IOTAUSD_close, movingAverageLength1)
-BNBUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 12
+	 : sma(EOSUSD_close, movingAverageLength1)
+BNBUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 6
 	 ? na
 	 : sma(BNBUSD_close, movingAverageLength1)
-XEMUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 13
+BSVUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 7
 	 ? na
-	 : sma(XEMUSD_close, movingAverageLength1)
-NEOUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 14
+	 : sma(BSVUSD_close, movingAverageLength1)
+XLMUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 8
+	 ? na
+	 : sma(XLMUSD_close, movingAverageLength1)
+LEOUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 9
+	 ? na
+	 : sma(LEOUSD_close, movingAverageLength1)
+ADAUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 10
+	 ? na
+	 : sma(ADAUSD_close, movingAverageLength1)
+XMRUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 11
+	 ? na
+	 : sma(XMRUSD_close, movingAverageLength1)
+TRXUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 12
+	 ? na
+	 : sma(TRXUSD_close, movingAverageLength1)
+IOTAUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 13
+	 ? na
+	 : sma(IOTAUSD_close, movingAverageLength1)
+DASHUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 14
+	 ? na
+	 : sma(DASHUSD_close, movingAverageLength1)
+LINKUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 15
+	 ? na
+	 : sma(LINKUSD_close, movingAverageLength1)
+NEOUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 16
 	 ? na
 	 : sma(NEOUSD_close, movingAverageLength1)
-ETCUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 15
+ETCUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 17
 	 ? na
 	 : sma(ETCUSD_close, movingAverageLength1)
-XTZUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 16
-	 ? na
-	 : sma(XTZUSD_close, movingAverageLength1)
-ZECUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 17
-	 ? na
-	 : sma(ZECUSD_close, movingAverageLength1)
-BTGUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 18
-	 ? na
-	 : sma(BTGUSD_close, movingAverageLength1)
-VETUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 19
-	 ? na
-	 : sma(VETUSD_close, movingAverageLength1)
-MKRUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 20
+MKRUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 18
 	 ? na
 	 : sma(MKRUSD_close, movingAverageLength1)
-ONTUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 21
+ONTUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 19
 	 ? na
 	 : sma(ONTUSD_close, movingAverageLength1)
-OMGUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 22
+ZECUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 20
 	 ? na
-	 : sma(OMGUSD_close, movingAverageLength1)
-DOGEUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 23
-	 ? na
-	 : sma(DOGEUSD_close, movingAverageLength1)
-ZRXUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 24
-	 ? na
-	 : sma(ZRXUSD_close, movingAverageLength1)
-DCRUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 25
-	 ? na
-	 : sma(DCRUSD_close, movingAverageLength1)
-QTUMUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 26
-	 ? na
-	 : sma(QTUMUSD_close, movingAverageLength1)
-BATUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 27
+	 : sma(ZECUSD_close, movingAverageLength1)
+BATUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 21
 	 ? na
 	 : sma(BATUSD_close, movingAverageLength1)
+VETUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 22
+	 ? na
+	 : sma(VETUSD_close, movingAverageLength1)
+QTUMUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 23
+	 ? na
+	 : sma(QTUMUSD_close, movingAverageLength1)
+ZBTUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 24
+	 ? na
+	 : sma(ZBTUSD_close, movingAverageLength1)
+HOTUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 25
+	 ? na
+	 : sma(HOTUSD_close, movingAverageLength1)
+ZRXUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 26
+	 ? na
+	 : sma(ZRXUSD_close, movingAverageLength1)
+OMGUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 27
+	 ? na
+	 : sma(OMGUSD_close, movingAverageLength1)
 LSKUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 28
 	 ? na
 	 : sma(LSKUSD_close, movingAverageLength1)
-ZILUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 29
-	 ? na
-	 : sma(ZILUSD_close, movingAverageLength1)
-BCNUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 30
-	 ? na
-	 : sma(BCNUSD_close, movingAverageLength1)
-AEUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 31
-	 ? na
-	 : sma(AEUSD_close, movingAverageLength1)
-BCDUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 32
-	 ? na
-	 : sma(BCDUSD_close, movingAverageLength1)
-ICXUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 33
-	 ? na
-	 : sma(ICXUSD_close, movingAverageLength1)
-BTSUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 34
-	 ? na
-	 : sma(BTSUSD_close, movingAverageLength1)
-DGBUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 35
-	 ? na
-	 : sma(DGBUSD_close, movingAverageLength1)
-NANOUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 36
+NANOUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 29
 	 ? na
 	 : sma(NANOUSD_close, movingAverageLength1)
-LINKUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 37
+DGBUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 30
 	 ? na
-	 : sma(LINKUSD_close, movingAverageLength1)
-SCUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 38
+	 : sma(DGBUSD_close, movingAverageLength1)
+ICXUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 31
 	 ? na
-	 : sma(SCUSD_close, movingAverageLength1)
-STEEMUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 39
+	 : sma(ICXUSD_close, movingAverageLength1)
+WAVESUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 32
 	 ? na
-	 : sma(STEEMUSD_close, movingAverageLength1)
-NPXSUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 40
+	 : sma(WAVESUSD_close, movingAverageLength1)
+DAIUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 33
 	 ? na
-	 : sma(NPXSUSD_close, movingAverageLength1)
+	 : sma(DAIUSD_close, movingAverageLength1)
+BCNUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 34
+	 ? na
+	 : sma(BCNUSD_close, movingAverageLength1)
+HCUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 35
+	 ? na
+	 : sma(HCUSD_close, movingAverageLength1)
+THETAUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 36
+	 ? na
+	 : sma(THETAUSD_close, movingAverageLength1)
+IOSTUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 37
+	 ? na
+	 : sma(IOSTUSD_close, movingAverageLength1)
+ENJUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 38
+	 ? na
+	 : sma(ENJUSD_close, movingAverageLength1)
+ZILUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 39
+	 ? na
+	 : sma(ZILUSD_close, movingAverageLength1)
+KEYUSD_movingAverage1 = numberOfTopMarketCapCurrencies < 40
+	 ? na
+	 : sma(KEYUSD_close, movingAverageLength1)
 
-pairsUsed1 = (na(BTCUSD_movingAverage1) ? 0 : 1) + (na(ETHUSD_movingAverage1) ? 0 : 1) + (na(XRPUSD_movingAverage1) ? 0 : 1) + (na(EOSUSD_movingAverage1) ? 0 : 1) + (na(XLMUSD_movingAverage1) ? 0 : 1) + (na(LTCUSD_movingAverage1) ? 0 : 1) + (na(ADAUSD_movingAverage1) ? 0 : 1) + (na(XMRUSD_movingAverage1) ? 0 : 1) + (na(TRXUSD_movingAverage1) ? 0 : 1) + (na(DASHUSD_movingAverage1) ? 0 : 1) + (na(IOTAUSD_movingAverage1) ? 0 : 1) + (na(BNBUSD_movingAverage1) ? 0 : 1) + (na(XEMUSD_movingAverage1) ? 0 : 1) + (na(NEOUSD_movingAverage1) ? 0 : 1) + (na(ETCUSD_movingAverage1) ? 0 : 1) + (na(XTZUSD_movingAverage1) ? 0 : 1) + (na(ZECUSD_movingAverage1) ? 0 : 1) + (na(BTGUSD_movingAverage1) ? 0 : 1) + (na(VETUSD_movingAverage1) ? 0 : 1) + (na(MKRUSD_movingAverage1) ? 0 : 1) + (na(ONTUSD_movingAverage1) ? 0 : 1) + (na(OMGUSD_movingAverage1) ? 0 : 1) + (na(DOGEUSD_movingAverage1) ? 0 : 1) + (na(ZRXUSD_movingAverage1) ? 0 : 1) + (na(DCRUSD_movingAverage1) ? 0 : 1) + (na(QTUMUSD_movingAverage1) ? 0 : 1) + (na(BATUSD_movingAverage1) ? 0 : 1) + (na(LSKUSD_movingAverage1) ? 0 : 1) + (na(ZILUSD_movingAverage1) ? 0 : 1) + (na(BCNUSD_movingAverage1) ? 0 : 1) + (na(AEUSD_movingAverage1) ? 0 : 1) + (na(BCDUSD_movingAverage1) ? 0 : 1) + (na(ICXUSD_movingAverage1) ? 0 : 1) + (na(BTSUSD_movingAverage1) ? 0 : 1) + (na(DGBUSD_movingAverage1) ? 0 : 1) + (na(NANOUSD_movingAverage1) ? 0 : 1) + (na(LINKUSD_movingAverage1) ? 0 : 1) + (na(SCUSD_movingAverage1) ? 0 : 1) + (na(STEEMUSD_movingAverage1) ? 0 : 1) + (na(NPXSUSD_movingAverage1) ? 0 : 1)
+pairsUsed1 = (na(BTCUSD_movingAverage1) ? 0 : 1) + (na(ETHUSD_movingAverage1) ? 0 : 1) + (na(XRPUSD_movingAverage1) ? 0 : 1) + (na(LTCUSD_movingAverage1) ? 0 : 1) + (na(EOSUSD_movingAverage1) ? 0 : 1) + (na(BNBUSD_movingAverage1) ? 0 : 1) + (na(BSVUSD_movingAverage1) ? 0 : 1) + (na(XLMUSD_movingAverage1) ? 0 : 1) + (na(LEOUSD_movingAverage1) ? 0 : 1) + (na(ADAUSD_movingAverage1) ? 0 : 1) + (na(XMRUSD_movingAverage1) ? 0 : 1) + (na(TRXUSD_movingAverage1) ? 0 : 1) + (na(IOTAUSD_movingAverage1) ? 0 : 1) + (na(DASHUSD_movingAverage1) ? 0 : 1) + (na(LINKUSD_movingAverage1) ? 0 : 1) + (na(NEOUSD_movingAverage1) ? 0 : 1) + (na(ETCUSD_movingAverage1) ? 0 : 1) + (na(MKRUSD_movingAverage1) ? 0 : 1) + (na(ONTUSD_movingAverage1) ? 0 : 1) + (na(ZECUSD_movingAverage1) ? 0 : 1) + (na(BATUSD_movingAverage1) ? 0 : 1) + (na(VETUSD_movingAverage1) ? 0 : 1) + (na(QTUMUSD_movingAverage1) ? 0 : 1) + (na(ZBTUSD_movingAverage1) ? 0 : 1) + (na(HOTUSD_movingAverage1) ? 0 : 1) + (na(ZRXUSD_movingAverage1) ? 0 : 1) + (na(OMGUSD_movingAverage1) ? 0 : 1) + (na(LSKUSD_movingAverage1) ? 0 : 1) + (na(NANOUSD_movingAverage1) ? 0 : 1) + (na(DGBUSD_movingAverage1) ? 0 : 1) + (na(ICXUSD_movingAverage1) ? 0 : 1) + (na(WAVESUSD_movingAverage1) ? 0 : 1) + (na(DAIUSD_movingAverage1) ? 0 : 1) + (na(BCNUSD_movingAverage1) ? 0 : 1) + (na(HCUSD_movingAverage1) ? 0 : 1) + (na(THETAUSD_movingAverage1) ? 0 : 1) + (na(IOSTUSD_movingAverage1) ? 0 : 1) + (na(ENJUSD_movingAverage1) ? 0 : 1) + (na(ZILUSD_movingAverage1) ? 0 : 1) + (na(KEYUSD_movingAverage1) ? 0 : 1)
 
-advancing1 = (not na(BTCUSD_movingAverage1) and BTCUSD_close > BTCUSD_movingAverage1 ? 1 : 0) + (not na(ETHUSD_movingAverage1) and ETHUSD_close > ETHUSD_movingAverage1 ? 1 : 0) + (not na(XRPUSD_movingAverage1) and XRPUSD_close > XRPUSD_movingAverage1 ? 1 : 0) + (not na(EOSUSD_movingAverage1) and EOSUSD_close > EOSUSD_movingAverage1 ? 1 : 0) + (not na(XLMUSD_movingAverage1) and XLMUSD_close > XLMUSD_movingAverage1 ? 1 : 0) + (not na(LTCUSD_movingAverage1) and LTCUSD_close > LTCUSD_movingAverage1 ? 1 : 0) + (not na(ADAUSD_movingAverage1) and ADAUSD_close > ADAUSD_movingAverage1 ? 1 : 0) + (not na(XMRUSD_movingAverage1) and XMRUSD_close > XMRUSD_movingAverage1 ? 1 : 0) + (not na(TRXUSD_movingAverage1) and TRXUSD_close > TRXUSD_movingAverage1 ? 1 : 0) + (not na(DASHUSD_movingAverage1) and DASHUSD_close > DASHUSD_movingAverage1 ? 1 : 0) + (not na(IOTAUSD_movingAverage1) and IOTAUSD_close > IOTAUSD_movingAverage1 ? 1 : 0) + (not na(BNBUSD_movingAverage1) and BNBUSD_close > BNBUSD_movingAverage1 ? 1 : 0) + (not na(XEMUSD_movingAverage1) and XEMUSD_close > XEMUSD_movingAverage1 ? 1 : 0) + (not na(NEOUSD_movingAverage1) and NEOUSD_close > NEOUSD_movingAverage1 ? 1 : 0) + (not na(ETCUSD_movingAverage1) and ETCUSD_close > ETCUSD_movingAverage1 ? 1 : 0) + (not na(XTZUSD_movingAverage1) and XTZUSD_close > XTZUSD_movingAverage1 ? 1 : 0) + (not na(ZECUSD_movingAverage1) and ZECUSD_close > ZECUSD_movingAverage1 ? 1 : 0) + (not na(BTGUSD_movingAverage1) and BTGUSD_close > BTGUSD_movingAverage1 ? 1 : 0) + (not na(VETUSD_movingAverage1) and VETUSD_close > VETUSD_movingAverage1 ? 1 : 0) + (not na(MKRUSD_movingAverage1) and MKRUSD_close > MKRUSD_movingAverage1 ? 1 : 0) + (not na(ONTUSD_movingAverage1) and ONTUSD_close > ONTUSD_movingAverage1 ? 1 : 0) + (not na(OMGUSD_movingAverage1) and OMGUSD_close > OMGUSD_movingAverage1 ? 1 : 0) + (not na(DOGEUSD_movingAverage1) and DOGEUSD_close > DOGEUSD_movingAverage1 ? 1 : 0) + (not na(ZRXUSD_movingAverage1) and ZRXUSD_close > ZRXUSD_movingAverage1 ? 1 : 0) + (not na(DCRUSD_movingAverage1) and DCRUSD_close > DCRUSD_movingAverage1 ? 1 : 0) + (not na(QTUMUSD_movingAverage1) and QTUMUSD_close > QTUMUSD_movingAverage1 ? 1 : 0) + (not na(BATUSD_movingAverage1) and BATUSD_close > BATUSD_movingAverage1 ? 1 : 0) + (not na(LSKUSD_movingAverage1) and LSKUSD_close > LSKUSD_movingAverage1 ? 1 : 0) + (not na(ZILUSD_movingAverage1) and ZILUSD_close > ZILUSD_movingAverage1 ? 1 : 0) + (not na(BCNUSD_movingAverage1) and BCNUSD_close > BCNUSD_movingAverage1 ? 1 : 0) + (not na(AEUSD_movingAverage1) and AEUSD_close > AEUSD_movingAverage1 ? 1 : 0) + (not na(BCDUSD_movingAverage1) and BCDUSD_close > BCDUSD_movingAverage1 ? 1 : 0) + (not na(ICXUSD_movingAverage1) and ICXUSD_close > ICXUSD_movingAverage1 ? 1 : 0) + (not na(BTSUSD_movingAverage1) and BTSUSD_close > BTSUSD_movingAverage1 ? 1 : 0) + (not na(DGBUSD_movingAverage1) and DGBUSD_close > DGBUSD_movingAverage1 ? 1 : 0) + (not na(NANOUSD_movingAverage1) and NANOUSD_close > NANOUSD_movingAverage1 ? 1 : 0) + (not na(LINKUSD_movingAverage1) and LINKUSD_close > LINKUSD_movingAverage1 ? 1 : 0) + (not na(SCUSD_movingAverage1) and SCUSD_close > SCUSD_movingAverage1 ? 1 : 0) + (not na(STEEMUSD_movingAverage1) and STEEMUSD_close > STEEMUSD_movingAverage1 ? 1 : 0) + (not na(NPXSUSD_movingAverage1) and NPXSUSD_close > NPXSUSD_movingAverage1 ? 1 : 0)
+advancing1 = (not na(BTCUSD_movingAverage1) and BTCUSD_close > BTCUSD_movingAverage1 ? 1 : 0) + (not na(ETHUSD_movingAverage1) and ETHUSD_close > ETHUSD_movingAverage1 ? 1 : 0) + (not na(XRPUSD_movingAverage1) and XRPUSD_close > XRPUSD_movingAverage1 ? 1 : 0) + (not na(LTCUSD_movingAverage1) and LTCUSD_close > LTCUSD_movingAverage1 ? 1 : 0) + (not na(EOSUSD_movingAverage1) and EOSUSD_close > EOSUSD_movingAverage1 ? 1 : 0) + (not na(BNBUSD_movingAverage1) and BNBUSD_close > BNBUSD_movingAverage1 ? 1 : 0) + (not na(BSVUSD_movingAverage1) and BSVUSD_close > BSVUSD_movingAverage1 ? 1 : 0) + (not na(XLMUSD_movingAverage1) and XLMUSD_close > XLMUSD_movingAverage1 ? 1 : 0) + (not na(LEOUSD_movingAverage1) and LEOUSD_close > LEOUSD_movingAverage1 ? 1 : 0) + (not na(ADAUSD_movingAverage1) and ADAUSD_close > ADAUSD_movingAverage1 ? 1 : 0) + (not na(XMRUSD_movingAverage1) and XMRUSD_close > XMRUSD_movingAverage1 ? 1 : 0) + (not na(TRXUSD_movingAverage1) and TRXUSD_close > TRXUSD_movingAverage1 ? 1 : 0) + (not na(IOTAUSD_movingAverage1) and IOTAUSD_close > IOTAUSD_movingAverage1 ? 1 : 0) + (not na(DASHUSD_movingAverage1) and DASHUSD_close > DASHUSD_movingAverage1 ? 1 : 0) + (not na(LINKUSD_movingAverage1) and LINKUSD_close > LINKUSD_movingAverage1 ? 1 : 0) + (not na(NEOUSD_movingAverage1) and NEOUSD_close > NEOUSD_movingAverage1 ? 1 : 0) + (not na(ETCUSD_movingAverage1) and ETCUSD_close > ETCUSD_movingAverage1 ? 1 : 0) + (not na(MKRUSD_movingAverage1) and MKRUSD_close > MKRUSD_movingAverage1 ? 1 : 0) + (not na(ONTUSD_movingAverage1) and ONTUSD_close > ONTUSD_movingAverage1 ? 1 : 0) + (not na(ZECUSD_movingAverage1) and ZECUSD_close > ZECUSD_movingAverage1 ? 1 : 0) + (not na(BATUSD_movingAverage1) and BATUSD_close > BATUSD_movingAverage1 ? 1 : 0) + (not na(VETUSD_movingAverage1) and VETUSD_close > VETUSD_movingAverage1 ? 1 : 0) + (not na(QTUMUSD_movingAverage1) and QTUMUSD_close > QTUMUSD_movingAverage1 ? 1 : 0) + (not na(ZBTUSD_movingAverage1) and ZBTUSD_close > ZBTUSD_movingAverage1 ? 1 : 0) + (not na(HOTUSD_movingAverage1) and HOTUSD_close > HOTUSD_movingAverage1 ? 1 : 0) + (not na(ZRXUSD_movingAverage1) and ZRXUSD_close > ZRXUSD_movingAverage1 ? 1 : 0) + (not na(OMGUSD_movingAverage1) and OMGUSD_close > OMGUSD_movingAverage1 ? 1 : 0) + (not na(LSKUSD_movingAverage1) and LSKUSD_close > LSKUSD_movingAverage1 ? 1 : 0) + (not na(NANOUSD_movingAverage1) and NANOUSD_close > NANOUSD_movingAverage1 ? 1 : 0) + (not na(DGBUSD_movingAverage1) and DGBUSD_close > DGBUSD_movingAverage1 ? 1 : 0) + (not na(ICXUSD_movingAverage1) and ICXUSD_close > ICXUSD_movingAverage1 ? 1 : 0) + (not na(WAVESUSD_movingAverage1) and WAVESUSD_close > WAVESUSD_movingAverage1 ? 1 : 0) + (not na(DAIUSD_movingAverage1) and DAIUSD_close > DAIUSD_movingAverage1 ? 1 : 0) + (not na(BCNUSD_movingAverage1) and BCNUSD_close > BCNUSD_movingAverage1 ? 1 : 0) + (not na(HCUSD_movingAverage1) and HCUSD_close > HCUSD_movingAverage1 ? 1 : 0) + (not na(THETAUSD_movingAverage1) and THETAUSD_close > THETAUSD_movingAverage1 ? 1 : 0) + (not na(IOSTUSD_movingAverage1) and IOSTUSD_close > IOSTUSD_movingAverage1 ? 1 : 0) + (not na(ENJUSD_movingAverage1) and ENJUSD_close > ENJUSD_movingAverage1 ? 1 : 0) + (not na(ZILUSD_movingAverage1) and ZILUSD_close > ZILUSD_movingAverage1 ? 1 : 0) + (not na(KEYUSD_movingAverage1) and KEYUSD_close > KEYUSD_movingAverage1 ? 1 : 0)
 
 advancingRatio1 = advancing1 / pairsUsed1
 advancingPercent1 = advancingRatio1 * 100
@@ -287,121 +287,121 @@ ETHUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 2
 XRPUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 3
 	 ? na
 	 : sma(XRPUSD_close, movingAverageLength2)
-EOSUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 4
-	 ? na
-	 : sma(EOSUSD_close, movingAverageLength2)
-XLMUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 5
-	 ? na
-	 : sma(XLMUSD_close, movingAverageLength2)
-LTCUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 6
+LTCUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 4
 	 ? na
 	 : sma(LTCUSD_close, movingAverageLength2)
-ADAUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 7
+EOSUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 5
 	 ? na
-	 : sma(ADAUSD_close, movingAverageLength2)
-XMRUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 8
-	 ? na
-	 : sma(XMRUSD_close, movingAverageLength2)
-TRXUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 9
-	 ? na
-	 : sma(TRXUSD_close, movingAverageLength2)
-DASHUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 10
-	 ? na
-	 : sma(DASHUSD_close, movingAverageLength2)
-IOTAUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 11
-	 ? na
-	 : sma(IOTAUSD_close, movingAverageLength2)
-BNBUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 12
+	 : sma(EOSUSD_close, movingAverageLength2)
+BNBUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 6
 	 ? na
 	 : sma(BNBUSD_close, movingAverageLength2)
-XEMUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 13
+BSVUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 7
 	 ? na
-	 : sma(XEMUSD_close, movingAverageLength2)
-NEOUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 14
+	 : sma(BSVUSD_close, movingAverageLength2)
+XLMUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 8
+	 ? na
+	 : sma(XLMUSD_close, movingAverageLength2)
+LEOUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 9
+	 ? na
+	 : sma(LEOUSD_close, movingAverageLength2)
+ADAUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 10
+	 ? na
+	 : sma(ADAUSD_close, movingAverageLength2)
+XMRUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 11
+	 ? na
+	 : sma(XMRUSD_close, movingAverageLength2)
+TRXUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 12
+	 ? na
+	 : sma(TRXUSD_close, movingAverageLength2)
+IOTAUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 13
+	 ? na
+	 : sma(IOTAUSD_close, movingAverageLength2)
+DASHUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 14
+	 ? na
+	 : sma(DASHUSD_close, movingAverageLength2)
+LINKUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 15
+	 ? na
+	 : sma(LINKUSD_close, movingAverageLength2)
+NEOUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 16
 	 ? na
 	 : sma(NEOUSD_close, movingAverageLength2)
-ETCUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 15
+ETCUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 17
 	 ? na
 	 : sma(ETCUSD_close, movingAverageLength2)
-XTZUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 16
-	 ? na
-	 : sma(XTZUSD_close, movingAverageLength2)
-ZECUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 17
-	 ? na
-	 : sma(ZECUSD_close, movingAverageLength2)
-BTGUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 18
-	 ? na
-	 : sma(BTGUSD_close, movingAverageLength2)
-VETUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 19
-	 ? na
-	 : sma(VETUSD_close, movingAverageLength2)
-MKRUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 20
+MKRUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 18
 	 ? na
 	 : sma(MKRUSD_close, movingAverageLength2)
-ONTUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 21
+ONTUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 19
 	 ? na
 	 : sma(ONTUSD_close, movingAverageLength2)
-OMGUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 22
+ZECUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 20
 	 ? na
-	 : sma(OMGUSD_close, movingAverageLength2)
-DOGEUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 23
-	 ? na
-	 : sma(DOGEUSD_close, movingAverageLength2)
-ZRXUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 24
-	 ? na
-	 : sma(ZRXUSD_close, movingAverageLength2)
-DCRUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 25
-	 ? na
-	 : sma(DCRUSD_close, movingAverageLength2)
-QTUMUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 26
-	 ? na
-	 : sma(QTUMUSD_close, movingAverageLength2)
-BATUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 27
+	 : sma(ZECUSD_close, movingAverageLength2)
+BATUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 21
 	 ? na
 	 : sma(BATUSD_close, movingAverageLength2)
+VETUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 22
+	 ? na
+	 : sma(VETUSD_close, movingAverageLength2)
+QTUMUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 23
+	 ? na
+	 : sma(QTUMUSD_close, movingAverageLength2)
+ZBTUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 24
+	 ? na
+	 : sma(ZBTUSD_close, movingAverageLength2)
+HOTUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 25
+	 ? na
+	 : sma(HOTUSD_close, movingAverageLength2)
+ZRXUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 26
+	 ? na
+	 : sma(ZRXUSD_close, movingAverageLength2)
+OMGUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 27
+	 ? na
+	 : sma(OMGUSD_close, movingAverageLength2)
 LSKUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 28
 	 ? na
 	 : sma(LSKUSD_close, movingAverageLength2)
-ZILUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 29
-	 ? na
-	 : sma(ZILUSD_close, movingAverageLength2)
-BCNUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 30
-	 ? na
-	 : sma(BCNUSD_close, movingAverageLength2)
-AEUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 31
-	 ? na
-	 : sma(AEUSD_close, movingAverageLength2)
-BCDUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 32
-	 ? na
-	 : sma(BCDUSD_close, movingAverageLength2)
-ICXUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 33
-	 ? na
-	 : sma(ICXUSD_close, movingAverageLength2)
-BTSUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 34
-	 ? na
-	 : sma(BTSUSD_close, movingAverageLength2)
-DGBUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 35
-	 ? na
-	 : sma(DGBUSD_close, movingAverageLength2)
-NANOUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 36
+NANOUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 29
 	 ? na
 	 : sma(NANOUSD_close, movingAverageLength2)
-LINKUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 37
+DGBUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 30
 	 ? na
-	 : sma(LINKUSD_close, movingAverageLength2)
-SCUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 38
+	 : sma(DGBUSD_close, movingAverageLength2)
+ICXUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 31
 	 ? na
-	 : sma(SCUSD_close, movingAverageLength2)
-STEEMUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 39
+	 : sma(ICXUSD_close, movingAverageLength2)
+WAVESUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 32
 	 ? na
-	 : sma(STEEMUSD_close, movingAverageLength2)
-NPXSUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 40
+	 : sma(WAVESUSD_close, movingAverageLength2)
+DAIUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 33
 	 ? na
-	 : sma(NPXSUSD_close, movingAverageLength2)
+	 : sma(DAIUSD_close, movingAverageLength2)
+BCNUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 34
+	 ? na
+	 : sma(BCNUSD_close, movingAverageLength2)
+HCUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 35
+	 ? na
+	 : sma(HCUSD_close, movingAverageLength2)
+THETAUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 36
+	 ? na
+	 : sma(THETAUSD_close, movingAverageLength2)
+IOSTUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 37
+	 ? na
+	 : sma(IOSTUSD_close, movingAverageLength2)
+ENJUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 38
+	 ? na
+	 : sma(ENJUSD_close, movingAverageLength2)
+ZILUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 39
+	 ? na
+	 : sma(ZILUSD_close, movingAverageLength2)
+KEYUSD_movingAverage2 = numberOfTopMarketCapCurrencies < 40
+	 ? na
+	 : sma(KEYUSD_close, movingAverageLength2)
 
-pairsUsed2 = (na(BTCUSD_movingAverage2) ? 0 : 1) + (na(ETHUSD_movingAverage2) ? 0 : 1) + (na(XRPUSD_movingAverage2) ? 0 : 1) + (na(EOSUSD_movingAverage2) ? 0 : 1) + (na(XLMUSD_movingAverage2) ? 0 : 1) + (na(LTCUSD_movingAverage2) ? 0 : 1) + (na(ADAUSD_movingAverage2) ? 0 : 1) + (na(XMRUSD_movingAverage2) ? 0 : 1) + (na(TRXUSD_movingAverage2) ? 0 : 1) + (na(DASHUSD_movingAverage2) ? 0 : 1) + (na(IOTAUSD_movingAverage2) ? 0 : 1) + (na(BNBUSD_movingAverage2) ? 0 : 1) + (na(XEMUSD_movingAverage2) ? 0 : 1) + (na(NEOUSD_movingAverage2) ? 0 : 1) + (na(ETCUSD_movingAverage2) ? 0 : 1) + (na(XTZUSD_movingAverage2) ? 0 : 1) + (na(ZECUSD_movingAverage2) ? 0 : 1) + (na(BTGUSD_movingAverage2) ? 0 : 1) + (na(VETUSD_movingAverage2) ? 0 : 1) + (na(MKRUSD_movingAverage2) ? 0 : 1) + (na(ONTUSD_movingAverage2) ? 0 : 1) + (na(OMGUSD_movingAverage2) ? 0 : 1) + (na(DOGEUSD_movingAverage2) ? 0 : 1) + (na(ZRXUSD_movingAverage2) ? 0 : 1) + (na(DCRUSD_movingAverage2) ? 0 : 1) + (na(QTUMUSD_movingAverage2) ? 0 : 1) + (na(BATUSD_movingAverage2) ? 0 : 1) + (na(LSKUSD_movingAverage2) ? 0 : 1) + (na(ZILUSD_movingAverage2) ? 0 : 1) + (na(BCNUSD_movingAverage2) ? 0 : 1) + (na(AEUSD_movingAverage2) ? 0 : 1) + (na(BCDUSD_movingAverage2) ? 0 : 1) + (na(ICXUSD_movingAverage2) ? 0 : 1) + (na(BTSUSD_movingAverage2) ? 0 : 1) + (na(DGBUSD_movingAverage2) ? 0 : 1) + (na(NANOUSD_movingAverage2) ? 0 : 1) + (na(LINKUSD_movingAverage2) ? 0 : 1) + (na(SCUSD_movingAverage2) ? 0 : 1) + (na(STEEMUSD_movingAverage2) ? 0 : 1) + (na(NPXSUSD_movingAverage2) ? 0 : 1)
+pairsUsed2 = (na(BTCUSD_movingAverage2) ? 0 : 1) + (na(ETHUSD_movingAverage2) ? 0 : 1) + (na(XRPUSD_movingAverage2) ? 0 : 1) + (na(LTCUSD_movingAverage2) ? 0 : 1) + (na(EOSUSD_movingAverage2) ? 0 : 1) + (na(BNBUSD_movingAverage2) ? 0 : 1) + (na(BSVUSD_movingAverage2) ? 0 : 1) + (na(XLMUSD_movingAverage2) ? 0 : 1) + (na(LEOUSD_movingAverage2) ? 0 : 1) + (na(ADAUSD_movingAverage2) ? 0 : 1) + (na(XMRUSD_movingAverage2) ? 0 : 1) + (na(TRXUSD_movingAverage2) ? 0 : 1) + (na(IOTAUSD_movingAverage2) ? 0 : 1) + (na(DASHUSD_movingAverage2) ? 0 : 1) + (na(LINKUSD_movingAverage2) ? 0 : 1) + (na(NEOUSD_movingAverage2) ? 0 : 1) + (na(ETCUSD_movingAverage2) ? 0 : 1) + (na(MKRUSD_movingAverage2) ? 0 : 1) + (na(ONTUSD_movingAverage2) ? 0 : 1) + (na(ZECUSD_movingAverage2) ? 0 : 1) + (na(BATUSD_movingAverage2) ? 0 : 1) + (na(VETUSD_movingAverage2) ? 0 : 1) + (na(QTUMUSD_movingAverage2) ? 0 : 1) + (na(ZBTUSD_movingAverage2) ? 0 : 1) + (na(HOTUSD_movingAverage2) ? 0 : 1) + (na(ZRXUSD_movingAverage2) ? 0 : 1) + (na(OMGUSD_movingAverage2) ? 0 : 1) + (na(LSKUSD_movingAverage2) ? 0 : 1) + (na(NANOUSD_movingAverage2) ? 0 : 1) + (na(DGBUSD_movingAverage2) ? 0 : 1) + (na(ICXUSD_movingAverage2) ? 0 : 1) + (na(WAVESUSD_movingAverage2) ? 0 : 1) + (na(DAIUSD_movingAverage2) ? 0 : 1) + (na(BCNUSD_movingAverage2) ? 0 : 1) + (na(HCUSD_movingAverage2) ? 0 : 1) + (na(THETAUSD_movingAverage2) ? 0 : 1) + (na(IOSTUSD_movingAverage2) ? 0 : 1) + (na(ENJUSD_movingAverage2) ? 0 : 1) + (na(ZILUSD_movingAverage2) ? 0 : 1) + (na(KEYUSD_movingAverage2) ? 0 : 1)
 
-advancing2 = (not na(BTCUSD_movingAverage2) and BTCUSD_close > BTCUSD_movingAverage2 ? 1 : 0) + (not na(ETHUSD_movingAverage2) and ETHUSD_close > ETHUSD_movingAverage2 ? 1 : 0) + (not na(XRPUSD_movingAverage2) and XRPUSD_close > XRPUSD_movingAverage2 ? 1 : 0) + (not na(EOSUSD_movingAverage2) and EOSUSD_close > EOSUSD_movingAverage2 ? 1 : 0) + (not na(XLMUSD_movingAverage2) and XLMUSD_close > XLMUSD_movingAverage2 ? 1 : 0) + (not na(LTCUSD_movingAverage2) and LTCUSD_close > LTCUSD_movingAverage2 ? 1 : 0) + (not na(ADAUSD_movingAverage2) and ADAUSD_close > ADAUSD_movingAverage2 ? 1 : 0) + (not na(XMRUSD_movingAverage2) and XMRUSD_close > XMRUSD_movingAverage2 ? 1 : 0) + (not na(TRXUSD_movingAverage2) and TRXUSD_close > TRXUSD_movingAverage2 ? 1 : 0) + (not na(DASHUSD_movingAverage2) and DASHUSD_close > DASHUSD_movingAverage2 ? 1 : 0) + (not na(IOTAUSD_movingAverage2) and IOTAUSD_close > IOTAUSD_movingAverage2 ? 1 : 0) + (not na(BNBUSD_movingAverage2) and BNBUSD_close > BNBUSD_movingAverage2 ? 1 : 0) + (not na(XEMUSD_movingAverage2) and XEMUSD_close > XEMUSD_movingAverage2 ? 1 : 0) + (not na(NEOUSD_movingAverage2) and NEOUSD_close > NEOUSD_movingAverage2 ? 1 : 0) + (not na(ETCUSD_movingAverage2) and ETCUSD_close > ETCUSD_movingAverage2 ? 1 : 0) + (not na(XTZUSD_movingAverage2) and XTZUSD_close > XTZUSD_movingAverage2 ? 1 : 0) + (not na(ZECUSD_movingAverage2) and ZECUSD_close > ZECUSD_movingAverage2 ? 1 : 0) + (not na(BTGUSD_movingAverage2) and BTGUSD_close > BTGUSD_movingAverage2 ? 1 : 0) + (not na(VETUSD_movingAverage2) and VETUSD_close > VETUSD_movingAverage2 ? 1 : 0) + (not na(MKRUSD_movingAverage2) and MKRUSD_close > MKRUSD_movingAverage2 ? 1 : 0) + (not na(ONTUSD_movingAverage2) and ONTUSD_close > ONTUSD_movingAverage2 ? 1 : 0) + (not na(OMGUSD_movingAverage2) and OMGUSD_close > OMGUSD_movingAverage2 ? 1 : 0) + (not na(DOGEUSD_movingAverage2) and DOGEUSD_close > DOGEUSD_movingAverage2 ? 1 : 0) + (not na(ZRXUSD_movingAverage2) and ZRXUSD_close > ZRXUSD_movingAverage2 ? 1 : 0) + (not na(DCRUSD_movingAverage2) and DCRUSD_close > DCRUSD_movingAverage2 ? 1 : 0) + (not na(QTUMUSD_movingAverage2) and QTUMUSD_close > QTUMUSD_movingAverage2 ? 1 : 0) + (not na(BATUSD_movingAverage2) and BATUSD_close > BATUSD_movingAverage2 ? 1 : 0) + (not na(LSKUSD_movingAverage2) and LSKUSD_close > LSKUSD_movingAverage2 ? 1 : 0) + (not na(ZILUSD_movingAverage2) and ZILUSD_close > ZILUSD_movingAverage2 ? 1 : 0) + (not na(BCNUSD_movingAverage2) and BCNUSD_close > BCNUSD_movingAverage2 ? 1 : 0) + (not na(AEUSD_movingAverage2) and AEUSD_close > AEUSD_movingAverage2 ? 1 : 0) + (not na(BCDUSD_movingAverage2) and BCDUSD_close > BCDUSD_movingAverage2 ? 1 : 0) + (not na(ICXUSD_movingAverage2) and ICXUSD_close > ICXUSD_movingAverage2 ? 1 : 0) + (not na(BTSUSD_movingAverage2) and BTSUSD_close > BTSUSD_movingAverage2 ? 1 : 0) + (not na(DGBUSD_movingAverage2) and DGBUSD_close > DGBUSD_movingAverage2 ? 1 : 0) + (not na(NANOUSD_movingAverage2) and NANOUSD_close > NANOUSD_movingAverage2 ? 1 : 0) + (not na(LINKUSD_movingAverage2) and LINKUSD_close > LINKUSD_movingAverage2 ? 1 : 0) + (not na(SCUSD_movingAverage2) and SCUSD_close > SCUSD_movingAverage2 ? 1 : 0) + (not na(STEEMUSD_movingAverage2) and STEEMUSD_close > STEEMUSD_movingAverage2 ? 1 : 0) + (not na(NPXSUSD_movingAverage2) and NPXSUSD_close > NPXSUSD_movingAverage2 ? 1 : 0)
+advancing2 = (not na(BTCUSD_movingAverage2) and BTCUSD_close > BTCUSD_movingAverage2 ? 1 : 0) + (not na(ETHUSD_movingAverage2) and ETHUSD_close > ETHUSD_movingAverage2 ? 1 : 0) + (not na(XRPUSD_movingAverage2) and XRPUSD_close > XRPUSD_movingAverage2 ? 1 : 0) + (not na(LTCUSD_movingAverage2) and LTCUSD_close > LTCUSD_movingAverage2 ? 1 : 0) + (not na(EOSUSD_movingAverage2) and EOSUSD_close > EOSUSD_movingAverage2 ? 1 : 0) + (not na(BNBUSD_movingAverage2) and BNBUSD_close > BNBUSD_movingAverage2 ? 1 : 0) + (not na(BSVUSD_movingAverage2) and BSVUSD_close > BSVUSD_movingAverage2 ? 1 : 0) + (not na(XLMUSD_movingAverage2) and XLMUSD_close > XLMUSD_movingAverage2 ? 1 : 0) + (not na(LEOUSD_movingAverage2) and LEOUSD_close > LEOUSD_movingAverage2 ? 1 : 0) + (not na(ADAUSD_movingAverage2) and ADAUSD_close > ADAUSD_movingAverage2 ? 1 : 0) + (not na(XMRUSD_movingAverage2) and XMRUSD_close > XMRUSD_movingAverage2 ? 1 : 0) + (not na(TRXUSD_movingAverage2) and TRXUSD_close > TRXUSD_movingAverage2 ? 1 : 0) + (not na(IOTAUSD_movingAverage2) and IOTAUSD_close > IOTAUSD_movingAverage2 ? 1 : 0) + (not na(DASHUSD_movingAverage2) and DASHUSD_close > DASHUSD_movingAverage2 ? 1 : 0) + (not na(LINKUSD_movingAverage2) and LINKUSD_close > LINKUSD_movingAverage2 ? 1 : 0) + (not na(NEOUSD_movingAverage2) and NEOUSD_close > NEOUSD_movingAverage2 ? 1 : 0) + (not na(ETCUSD_movingAverage2) and ETCUSD_close > ETCUSD_movingAverage2 ? 1 : 0) + (not na(MKRUSD_movingAverage2) and MKRUSD_close > MKRUSD_movingAverage2 ? 1 : 0) + (not na(ONTUSD_movingAverage2) and ONTUSD_close > ONTUSD_movingAverage2 ? 1 : 0) + (not na(ZECUSD_movingAverage2) and ZECUSD_close > ZECUSD_movingAverage2 ? 1 : 0) + (not na(BATUSD_movingAverage2) and BATUSD_close > BATUSD_movingAverage2 ? 1 : 0) + (not na(VETUSD_movingAverage2) and VETUSD_close > VETUSD_movingAverage2 ? 1 : 0) + (not na(QTUMUSD_movingAverage2) and QTUMUSD_close > QTUMUSD_movingAverage2 ? 1 : 0) + (not na(ZBTUSD_movingAverage2) and ZBTUSD_close > ZBTUSD_movingAverage2 ? 1 : 0) + (not na(HOTUSD_movingAverage2) and HOTUSD_close > HOTUSD_movingAverage2 ? 1 : 0) + (not na(ZRXUSD_movingAverage2) and ZRXUSD_close > ZRXUSD_movingAverage2 ? 1 : 0) + (not na(OMGUSD_movingAverage2) and OMGUSD_close > OMGUSD_movingAverage2 ? 1 : 0) + (not na(LSKUSD_movingAverage2) and LSKUSD_close > LSKUSD_movingAverage2 ? 1 : 0) + (not na(NANOUSD_movingAverage2) and NANOUSD_close > NANOUSD_movingAverage2 ? 1 : 0) + (not na(DGBUSD_movingAverage2) and DGBUSD_close > DGBUSD_movingAverage2 ? 1 : 0) + (not na(ICXUSD_movingAverage2) and ICXUSD_close > ICXUSD_movingAverage2 ? 1 : 0) + (not na(WAVESUSD_movingAverage2) and WAVESUSD_close > WAVESUSD_movingAverage2 ? 1 : 0) + (not na(DAIUSD_movingAverage2) and DAIUSD_close > DAIUSD_movingAverage2 ? 1 : 0) + (not na(BCNUSD_movingAverage2) and BCNUSD_close > BCNUSD_movingAverage2 ? 1 : 0) + (not na(HCUSD_movingAverage2) and HCUSD_close > HCUSD_movingAverage2 ? 1 : 0) + (not na(THETAUSD_movingAverage2) and THETAUSD_close > THETAUSD_movingAverage2 ? 1 : 0) + (not na(IOSTUSD_movingAverage2) and IOSTUSD_close > IOSTUSD_movingAverage2 ? 1 : 0) + (not na(ENJUSD_movingAverage2) and ENJUSD_close > ENJUSD_movingAverage2 ? 1 : 0) + (not na(ZILUSD_movingAverage2) and ZILUSD_close > ZILUSD_movingAverage2 ? 1 : 0) + (not na(KEYUSD_movingAverage2) and KEYUSD_close > KEYUSD_movingAverage2 ? 1 : 0)
 
 advancingRatio2 = advancing2 / pairsUsed2
 advancingPercent2 = advancingRatio2 * 100
